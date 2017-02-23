@@ -1,0 +1,90 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+body{
+	margin:30px;
+}
+h1{
+	font-weight:400;
+	font-size:18px;
+	margin-bottom:0px;
+}
+h2{
+    color:#333;
+    font:Arial;
+    font-weight:700;
+    font-size:13px;
+    margin-bottom: 0px;
+}
+h3{
+	margin-top: 4px;
+	color:#a0a0a0;
+	font-size:14px;
+	font-weight:400;
+}
+p{
+    color:#4a4a4a;
+    font-size:14px;
+    margin-top:4px;
+    font-weight:400;
+}
+.focus{
+	margin-top:30px;
+}
+.find{
+	margin-top:20px;
+}
+.links{
+	margin-top:4px;
+}
+a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+    font-weight: 400;
+}
+a:link,a:visited{
+	color:#F6a623;
+}
+a:hover{
+	font-weight:400;
+}
+html,body,span, applet, object, iframe,
+h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-weight:300;
+  font-size: 100%;
+  font-family: source sans pro,Lantinghei SC,Microsoft YaHei,"sans-serif";
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
