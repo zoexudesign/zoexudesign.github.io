@@ -37,7 +37,7 @@ h6{
   }
 }
 @media(max-width: 768px){
-  .row{
+  .portfolio-item{
     margin-top:100px !important;  
   }
 }
