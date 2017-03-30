@@ -9,12 +9,8 @@ body {
 }
 
 .portfolio-item {
+	margin-top:100px
     margin-bottom: 25px;
-}
-@media(max-width: 768px){
-  .portfolio-item{
-    margin-top:100px !important;  
-  }
 }
 
 footer {
