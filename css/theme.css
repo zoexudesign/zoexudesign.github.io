@@ -1,0 +1,76 @@
+body{
+	font-family:"Proxima Nova","Lantinghei SC",Helvetica,sans-serif;
+}
+p,h3,h6{
+	font-family: "Hiragino Sans GB","Source Sans Pro",Helvetica,sans-serif;
+}
+p{
+	font-size:13px;
+	font-weight:100;
+	color:#555;
+}
+h3{
+    font-size:15px;
+	font-weight:700;
+	color:#555;
+}
+h4{
+	font-family:"Source Sans Pro","Lantinghei SC",Helvetica,sans-serif;
+	font-size:18px;
+	font-weight: 700;
+	color:#555;
+
+}
+h5{
+	color:#555;
+	margin-top:30px;
+}
+h6{
+	color:#9b9b9b;
+	font-weight: 13px;
+	font-weight:100;
+	line-height: 16px;
+}
+@media(min-width: 1200px){
+  .container{
+    width:960px !important;  
+  }
+}
+.nav>li>a{
+	padding-right:15px;
+	padding-left:0px;
+}
+.navbar{
+	background-color: #fff;
+	border:none;
+	margin-bottom:0px;
+}
+.navbar-brand{
+	font-family:"Source Sans Pro","Lantinghei SC",Helvetica,sans-serif;
+    font-weight: lighter;
+	font-size: 40px;
+	margin-top:30px;
+}
+.navbar-inverse .navbar-brand{
+	color:#333;
+}
+.navbar-inverse .navbar-brand:hover{
+	color:#333;
+}
+.navbar-inverse .navbar-nav>li>a{
+	font-weight: 100;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:#ffc107;
+    font-weight: 100;
+}
+.navbar-nav{
+	margin-left:0px;
+}
+.navbar-nav>li>a{
+	padding-top:0px;
+
+}
+.uxarticle{
+    line-height: 24px;
+}
